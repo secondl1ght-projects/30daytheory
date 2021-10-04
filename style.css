@@ -151,7 +151,7 @@ img {
 
 @media only screen and (max-width: 1350px) {
   #travelroulette {
-    width: 75%;
+    width: 70%;
   }
 
   .blog {
@@ -159,22 +159,22 @@ img {
   }
 
   #divlist {
-    width: 70%;
+    width: 60%;
     height: 12.5rem;
   }
 
   button {
     padding: 2%;
-    margin: 1.5%;
+    margin: 1%;
   }
 
   input {
     padding: 2%;
-    margin: 1.5%;
+    margin: 1%;
   }
 
   img {
-    width: 7%;
+    width: 5%;
     margin: 1.5%;
   }
 }
