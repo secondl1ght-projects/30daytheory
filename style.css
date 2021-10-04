@@ -151,7 +151,7 @@ img {
 
 @media only screen and (max-width: 770px) {
   #travelroulette {
-    width: 75%;
+    width: 85%;
   }
 
   .blog {
@@ -172,5 +172,6 @@ img {
 
   img {
     width: 10%;
+    margin: 2%;
   }
 }
