@@ -159,7 +159,8 @@ img {
   }
 
   #divlist {
-    width: 75%;
+    width: 80%;
+    height: 12.5rem;
   }
 
   button {
@@ -173,7 +174,7 @@ img {
   }
 
   img {
-    width: 12%;
+    width: 11%;
     margin: 2%;
   }
 }
