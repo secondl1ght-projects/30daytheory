@@ -53,8 +53,7 @@ html {
   background-color: floralwhite;
   background-image: url(./images/map.jpg);
   height: 100%;
-  background-repeat: no-repeat;
-  
+
 }
 
 .blog {
@@ -148,4 +147,18 @@ img {
 
 #list {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #travelroulette {
+    width: 90%;
+  }
+
+  .blogpost {
+    width: 50%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+
 }
