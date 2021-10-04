@@ -12,10 +12,17 @@ function randomNumber() {
 }
 
 function addToList() {
-  tripList.push(document.querySelector("#destination").value);
-  document.querySelector(
-    "#count"
-  ).innerHTML = `No. of destinations: ${tripList.length}`;
+  if (tripList.includes(document.querySelector("#destination").value)) {
+    messageDiv.innerHTML = "You have already entered that destination.";
+  } else if (document.querySelector("#destination").value.length > 0) {
+    tripList.push(document.querySelector("#destination").value);
+    messageDiv.innerHTML = "";
+    document.querySelector(
+      "#count"
+    ).innerHTML = `No. of destinations: ${tripList.length}`;
+  } else {
+    messageDiv.innerHTML = "Enter a destination.";
+  }
   console.log(tripList);
 }
 
