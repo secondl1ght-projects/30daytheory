@@ -4,6 +4,8 @@ A travel inspiration website where you can create a list of destinations and ran
 
 Link to site: <https://www.30daytheory.world>
 
+![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2F30daytheory.world)
+
 ## Table of Contents
 
 -   [General Info](#general-information)
